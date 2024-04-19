@@ -44,6 +44,9 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
       body: activePage,
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.lightBlueAccent,
+        selectedItemColor: Colors.white,
+        unselectedLabelStyle: const TextStyle(fontWeight: FontWeight.bold),
+        selectedLabelStyle: const TextStyle(fontWeight: FontWeight.bold),
         type: BottomNavigationBarType.fixed,
         onTap: _selectPage,
         currentIndex: _selectedPageIndex,

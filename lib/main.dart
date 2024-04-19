@@ -6,10 +6,6 @@ import 'package:id_review_app/screens/tabs.dart';
 
 final theme = ThemeData(
   useMaterial3: true,
-  colorScheme: ColorScheme.fromSeed(
-    brightness: Brightness.light,
-    seedColor: const Color.fromARGB(255, 131, 0, 0),
-  ),
   textTheme: GoogleFonts.montserratTextTheme(),
 );
 void main() {

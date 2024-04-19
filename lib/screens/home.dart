@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(8, 0, 8, 8),
           child: Center(
             child: Image(
-                image: AssetImage("assets/images/logo.webp"),
+                image: const AssetImage("assets/images/logo.webp"),
                 width: MediaQuery.of(context).size.width),
           ),
         ),
